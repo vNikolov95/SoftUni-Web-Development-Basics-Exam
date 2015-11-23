@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.container{
+	margin-top:70px;
+}
+
+.errors-box{
+	margin-top:20px;
+}
+
+.error{
+	margin-bottom:10px;
+}
+
+.error:last-of-type{
+	margin-bottom:0;
+}
+
+.error span.glyphicon{
+	color:#630D0D;
+	margin-right:5px;
+}

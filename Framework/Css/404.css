@@ -1,0 +1,76 @@
+body {
+    position: relative !important;
+    height: 100% !important;
+    background-color: #7487cf !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    color: #333 !important;
+    font-weight: 300 !important;
+    margin:0 !important;
+    box-sizing:border-box !important;
+    display:block !important;
+}
+
+#wrapper{
+	min-height: 100%;
+    height: 100%;
+    width: 100%;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.container{
+	position: relative;
+}
+
+.info{
+	position: relative;
+    z-index: 999;
+    margin-bottom: 60px;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.rabbit{
+	background-image: url("../Images/rabbit.png");
+    background-repeat: no-repeat;
+    width: 608px;
+    height: 668px;
+    margin: 212px auto 0;
+    position: relative;
+}
+
+.carrot{
+	background-image: url("../Images/carrot.png");
+    background-repeat: no-repeat;
+    width: 533px;
+    height: 499px;
+    position: absolute;
+    top: -168px;
+    left: 45px;
+}
+
+.info h1 {
+    font-size: 102px;
+    font-weight: 700;
+    line-height: 105px;
+    color: #fdfd73;
+    text-transform: uppercase;
+}
+
+.info h2{
+	font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.info p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 15px 0;
+}
